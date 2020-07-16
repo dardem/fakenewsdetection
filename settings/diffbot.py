@@ -1,4 +1,4 @@
 import diffbot
 
-TOKEN = #YOUR TOKEN
+TOKEN = '' #YOUR TOKEN
 client = diffbot.Client(token=TOKEN)
