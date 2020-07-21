@@ -97,4 +97,4 @@ def calculate_similarity(news1, news2, lang):
     embd_news1 = 0.5 * calculate_sent_embd(clean_news1_headline) + 0.5 * calculate_sent_embd(clean_news1_content)
     embd_news2 = 0.5 * calculate_sent_embd(clean_news2_headline) + 0.5 * calculate_sent_embd(clean_news2_content)
 
-    return distance.cosine(embd_news1, embd_news2)
+    return 1 - distance.cosine(embd_news1, embd_news2)
