@@ -4,6 +4,6 @@ pandas==0.25.1
 spacy==2.2.3
 tqdm==4.36.1
 googletrans==3.0.0
-requests==2.22.0
+requests==2.31.0
 beautifulsoup4==4.9.1
 protobuf==3.12.2
